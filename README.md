@@ -20,5 +20,5 @@ HERE this is my BTech project in which I'm interfacing Arduino UNO with LCD(16*2
 - Clone the repository
 - Upload **ard_chaser.ino** to arduino board
 - Change Serial name in **Face_Rec** under:
-  **ArduinoConn = serial.Serial("change here", 9600)**
+  **ArduinoConn = serial.Serial("change here", 9600)** #mine port is COM3
 - Run **Face_Rec**
