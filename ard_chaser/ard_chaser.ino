@@ -50,7 +50,7 @@ void loop()
   if(flag == 1)
     {
       lcd.setCursor (0,0);
-      lcd.print(" Welcome Boss!!  ");
+      lcd.print(" Welcome ");
       digitalWrite(led, HIGH);
       digitalWrite(led1, LOW);
       digitalWrite(led2, LOW);
