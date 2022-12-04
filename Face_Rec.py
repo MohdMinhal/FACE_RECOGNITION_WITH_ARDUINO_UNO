@@ -13,7 +13,7 @@ import serial
 ArduinoConn = serial.Serial("com3", 9600)
 
 # Get a reference to webcam #0 (the default one)
-video_capture = cv2.VideoCapture("http://192.168.29.53:8080/video")
+video_capture = cv2.VideoCapture(0)
 
 # Load a sample picture and learn how to recognize it.
 lak_image = face_recognition.load_image_file("C:/Users/bban hab/SideTrack/Face-Recognition-with-arduino-uno/train_dir/KAZMI/KAZMI.jpg")
