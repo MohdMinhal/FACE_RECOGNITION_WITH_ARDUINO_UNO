@@ -8,16 +8,14 @@ print (ArduinoConnection.readline())
 
 while 1:
 
-    indicator = (input("Enter the option: \n"))
+    indicator = (input())
 
     if indicator == "1":
 
         ArduinoConnection.write(indicator.encode())
-        print("LED should turn on.")
         time.sleep(1)
 
     if indicator == "0":
         ArduinoConnection.write(indicator.encode())
-        print("LED should trun off.")
         time.sleep(1)
 
